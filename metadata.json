@@ -1,0 +1,6 @@
+{
+  "name": "Asaan Urdu Keyboard",
+  "description": "Asaan Urdu Keyboard (Urdu Made Simple) - Native Android Keyboard app with Roman Urdu transliteration, complete Urdu layout, post creator, OCR, and Urdu tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

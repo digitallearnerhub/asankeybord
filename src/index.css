@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-nastaliq {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', serif;
+  line-height: 2.2;
+}
+
+.font-arabic {
+  font-family: 'Noto Sans Arabic', 'Noto Nastaliq Urdu', sans-serif;
+  line-height: 1.8;
+}
+
+/* Custom scrollbars for compact mobile emulator */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(20, 92, 58, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 92, 58, 0.4);
+}
